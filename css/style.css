@@ -1,0 +1,224 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font: 14px 400 #666 "Montserrat", "Noto Sans KR", sans-serif;
+  }
+
+header {
+    height: 950px;
+    background: url(../images/visual_bg.jpg);
+    
+}
+.logo {
+    max-width: 1000px;
+    padding : 50px 0;
+    margin : 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.slogan {
+    width: 533px;
+    margin: 150px auto;
+    display: flex;
+    height: 243px;
+    align-items: center;
+    justify-content: center;
+  }
+
+.article1 {
+    background: url(../images/system_bg.jpg);
+    height: 705px;
+    text-align: center;
+}
+
+.article-box1 {
+    width : 1000px;
+    margin : 0 auto;
+}
+.article1 h2 {
+    font-size: 30px;
+    font-weight: 500;
+    color : #1e598c;
+    border-bottom: 1px solid #1e598c;
+    padding : 80px 0 20px 0;
+}
+
+.article1 p {
+    font-size: 20px;
+    font-weight: 500;
+    color : #fff;
+    background-color: #1e598c;
+    width: 280px;
+    height: 35px;
+    margin : 0 auto;
+}
+.article1 img {
+    margin : 70px 0 0 0;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+
+.img_list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.img_list > div {
+    position: relative;
+}
+
+.cover {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.img_list div:hover .cover{
+    display: block;
+    opacity: 100%;
+}
+
+.img_list div:hover{
+    opacity: 50%;
+}
+
+.article-box2 {
+    width : 1000px;
+    margin : 50px  auto;
+}
+
+.article-box2 h2 {
+    font-size: 30px;
+    font-weight: 500;
+    color : #1e598c;
+    text-align: center;
+    border-bottom: 1px solid #1e598c;
+    margin : 30px 0 ;
+}
+
+.article-box2 h1 {
+    font-size : 36px;
+    font-weight: 700;
+    color:#000;
+    text-align: center;
+}
+
+.article-box2 h1 span {
+    color : #ed480e;
+}
+
+.article-box2 img {
+    width: 600px;
+    height: 442px;
+    margin : 0 0 0 220px;
+}
+
+.article-box2 p {
+    font-size: 16px;
+    color : #000;
+    border:#000 solid 1px;
+    border-radius: 30px;
+    text-align: center;
+    width: 150px;
+    height: 50px;
+    margin : 50px auto;
+    line-height: 50px;
+}
+
+.article-box2 p:hover {
+    color : #000;
+    background-color: #000;
+}
+
+.article-container {
+    background: url(../images/company_bg.jpg);
+}
+
+.article3 {
+    height: 382px;
+    background: url(../images/company.png) no-repeat right ;
+}
+
+.article-box3 {
+    width: 1000px;
+    margin : 0 auto;
+}
+
+.article-box3 p {
+    font-size: 20px;
+    color : #193f5c;
+    font-weight: 500;
+    padding : 70px 0 20px 0;
+}
+
+.article-box3 h2:nth-child(2) {
+    font-size: 30px;
+    font-weight: 500;
+    color:#193f5c;
+}
+.article-box3 h2:nth-child(3) {
+    font-size: 30px;
+    font-weight: 300;
+    color:#193f5c;
+}
+
+aside {
+    max-width: 1000px;
+    margin : 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+aside div {
+    display: flex;
+    justify-content: left;
+}
+
+aside div .call-img {
+    width: 28px;
+    height: 28px;
+    margin : 15px 0;
+}
+
+aside .button-img {
+    width: 57px;
+    height: 60px;
+}
+
+aside p {
+    font-size: 20px;
+    font-weight: 700;
+    color : #e86708;
+    margin : 15px 10px ;
+}
+
+footer {
+    width: 1000px;
+    margin : 0 auto;
+}
+
+footer div {
+    width :122px;
+    height: 33px;
+    margin : 0 auto;
+}
+
+footer p {
+    font-size: 13px;
+    color : #666;
+    text-align: center;
+}
+
+footer p:nth-child(2) {
+    margin : 20px 0;
+}
+
+footer p:nth-child(3) {
+    font-size: 11px;
+    color : #999;
+    text-align: center;
+    margin : 35px 0 50px 0;
+}
