@@ -81,7 +81,7 @@ header {
     opacity: 100%;
 }
 
-.img_list div:hover{
+.img_list > div:hover{
     opacity: 50%;
 }
 
